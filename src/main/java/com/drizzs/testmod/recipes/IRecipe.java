@@ -1,4 +1,4 @@
-package com.minerarcana.occult.recipes;
+package com.drizzs.testmod.recipes;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.Ingredient;

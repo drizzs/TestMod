@@ -1,4 +1,8 @@
 package com.drizzs.testmod.block;
 
-public class TestBlocks {
+public class TestBlocks
+{
+
+
+
 }

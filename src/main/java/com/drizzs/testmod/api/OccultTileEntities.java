@@ -1,9 +1,7 @@
-package com.minerarcana.occult.tileentity;
+package com.drizzs.testmod.api;
 
-import com.minerarcana.occult.tileentity.ritualfire.RitualFireTileEntity;
-import com.minerarcana.occult.tileentity.ritualfire.RitualFire;
-import com.minerarcana.occult.tileentity.ritualfire.RitualFireContainer;
-import net.minecraft.inventory.container.ContainerType;
+import com.drizzs.testmod.block.tile.RitualFire;
+import com.drizzs.testmod.tileentity.RitualFireTileEntity;
 import net.minecraft.tileentity.TileEntityType;
 import net.minecraftforge.registries.ObjectHolder;
 
@@ -14,9 +12,6 @@ public class OccultTileEntities
 
     @ObjectHolder("occult:ritualfire")
     public static TileEntityType<RitualFireTileEntity> RITUALTILE;
-
-    @ObjectHolder("occult:ritualfire")
-    public static ContainerType<RitualFireContainer> RITUALCONTAINER;
 
 
 }
