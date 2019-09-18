@@ -1,5 +1,6 @@
-package com.drizzs.testmod;
+package com.drizzs.testmod.blocks;
 
+import com.drizzs.testmod.TestItemGroup;
 import com.drizzs.testmod.blocks.crucible.CrucibleBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;

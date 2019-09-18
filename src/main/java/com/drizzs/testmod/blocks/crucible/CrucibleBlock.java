@@ -1,4 +1,4 @@
-package com.minerarcana.occult.tileentity.crucible;
+package com.drizzs.testmod.blocks.crucible;
 
 
 import net.minecraft.block.Block;
