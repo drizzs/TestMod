@@ -1,6 +1,7 @@
 package com.drizzs.testmod.blocks;
 
 import com.drizzs.testmod.TestMod;
+import com.drizzs.testmod.util.TestItemGroup;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
@@ -28,7 +29,7 @@ public class BlockRegistry
 
     public static Block registerBlock(Block block, String name)
     {
-        BlockItem itemBlock = new BlockItem(block, new Item.Properties().group(ItemGroup.MISC));
+        BlockItem itemBlock = new BlockItem(block, new Item.Properties().group(TestItemGroup.instance));
         block.setRegistryName(name);
         itemBlock.setRegistryName(name);
         ForgeRegistries.BLOCKS.register(block);

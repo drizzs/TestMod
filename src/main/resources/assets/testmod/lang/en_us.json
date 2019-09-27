@@ -1,5 +1,6 @@
 {
   "item.testmod.test_item": "Test Icon",
-  "block.testmod.basic_block": "Basic Block"
+  "block.testmod.basic_block": "Basic Block",
 
+  "itemGroup.testmod":"Test Mod"
 }
