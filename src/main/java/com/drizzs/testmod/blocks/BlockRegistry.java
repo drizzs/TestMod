@@ -1,6 +1,7 @@
 package com.drizzs.testmod.blocks;
 
 import com.drizzs.testmod.TestMod;
+import com.drizzs.testmod.blocks.featureblocks.TestFeature;
 import com.drizzs.testmod.util.TestItemGroup;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
@@ -19,11 +20,16 @@ public class BlockRegistry
 
     public static Block basic_block;
 
+    public static Block testfeature;
+
     @SubscribeEvent
     public static void registerBlocks(final RegistryEvent.Register<Block> event)
     {
 
         basic_block = registerBlock(new Block((Block.Properties.create(Material.ROCK).hardnessAndResistance(0.6F).sound(SoundType.STONE))), "basic_block");
+
+        testfeature = registerBlock(new TestFeature((Block.Properties.create(Material.PLANTS).noDrops().doesNotBlockMovement().hardnessAndResistance(0).sound(SoundType.PLANT))), "test_feature");
+
 
     }
 
