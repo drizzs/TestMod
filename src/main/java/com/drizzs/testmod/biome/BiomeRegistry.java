@@ -1,6 +1,7 @@
 package com.drizzs.testmod.biome;
 
 import com.drizzs.testmod.TestMod;
+import com.drizzs.testmod.biome.overworld.SurfaceTestBiome;
 import com.drizzs.testmod.biome.overworld.TestBiome;
 import net.minecraft.world.biome.Biome;
 import net.minecraftforge.common.BiomeDictionary;
@@ -15,11 +16,15 @@ public class BiomeRegistry
 {
 
     public static Biome testbiome;
+    public static Biome surfacetestbiome;
 
     @SubscribeEvent
     public static void registerBiomes(final RegistryEvent.Register<Biome> event)
     {
-        testbiome = registerBiome(new TestBiome(), BiomeManager.BiomeType.WARM , "testbiome", 1000, BiomeDictionary.Type.FOREST, BiomeDictionary.Type.DENSE, BiomeDictionary.Type.SPOOKY);
+        testbiome = registerBiome(new TestBiome(), BiomeManager.BiomeType.WARM , "testbiome", 50, BiomeDictionary.Type.FOREST, BiomeDictionary.Type.DENSE, BiomeDictionary.Type.SPOOKY);
+
+       //SurfaceBuilder Test Biome
+        surfacetestbiome = registerBiome(new SurfaceTestBiome(), BiomeManager.BiomeType.WARM , "surfacetestbiome", 50, BiomeDictionary.Type.FOREST, BiomeDictionary.Type.DENSE, BiomeDictionary.Type.SPOOKY);
 
     }
 
