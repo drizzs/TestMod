@@ -23,7 +23,7 @@ public class BiomeRegistry
     @SubscribeEvent
     public static void registerBiomes(final RegistryEvent.Register<Biome> event)
     {
-        testbiome = registerBiome(new TestBiome(), BiomeManager.BiomeType.WARM , "testbiome", 50, BiomeDictionary.Type.FOREST, BiomeDictionary.Type.DENSE, BiomeDictionary.Type.SPOOKY);
+        testbiome = registerBiome(new TestBiome(), BiomeManager.BiomeType.WARM , "testbiome", 0, BiomeDictionary.Type.FOREST, BiomeDictionary.Type.DENSE, BiomeDictionary.Type.SPOOKY);
 
        //SurfaceBuilder Test Biome
         surfacetestbiome = registerBiome(new SurfaceTestBiome(), BiomeManager.BiomeType.WARM , "surfacetestbiome", 50, BiomeDictionary.Type.FOREST, BiomeDictionary.Type.DENSE, BiomeDictionary.Type.SPOOKY);

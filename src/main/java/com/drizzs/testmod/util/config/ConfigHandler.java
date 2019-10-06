@@ -62,16 +62,16 @@ public class ConfigHandler {
             builder.push("OreGen");
             minTestOreSpawnHeight = builder
                     .comment("The minimum height to spawn Test Ore at.")
-                    .defineInRange("minTestOreSpawnHeight", 0, 0, 256);
+                    .defineInRange("minTestOreSpawnHeight", 1, 0, 256);
             maxTestOreSpawnHeight = builder
                     .comment("The maximum height to spawn Test Ore at.")
                     .defineInRange("maxTestOreSpawnHeight", 72, 0, 256);
             chanceToSpawnTestOre = builder
                     .comment("Controls the chance to spawn Test Ore in world generation.")
-                    .defineInRange("chanceToSpawnTestOre", 12, 1, 100);
+                    .defineInRange("chanceToSpawnTestOre", 40, 1, 100);
             maxTestOreVeinSize = builder
                     .comment("The maximum number of ores per vein. Will Spawn half of number indicated. 10 = 5 ore.")
-                    .defineInRange("maxTestOreVeinSize", 10, 1, 100);
+                    .defineInRange("maxTestOreVeinSize", 100, 1, 100);
             builder.pop();
 
             builder.push("FeatureGen");

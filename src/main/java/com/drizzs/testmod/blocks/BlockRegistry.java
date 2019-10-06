@@ -19,7 +19,7 @@ public class BlockRegistry
 {
 
     public static Block basic_block;
-
+    public static Block testore;
     public static Block testfeature;
 
     @SubscribeEvent
@@ -27,6 +27,9 @@ public class BlockRegistry
     {
 
         basic_block = registerBlock(new Block((Block.Properties.create(Material.ROCK).hardnessAndResistance(0.6F).sound(SoundType.STONE))), "basic_block");
+
+        testore = registerBlock(new Block((Block.Properties.create(Material.ROCK).hardnessAndResistance(0.6F).sound(SoundType.STONE))), "testore");
+
 
         testfeature = registerBlock(new TestFeature((Block.Properties.create(Material.PLANTS).noDrops().doesNotBlockMovement().hardnessAndResistance(0).sound(SoundType.PLANT))), "test_feature");
 
