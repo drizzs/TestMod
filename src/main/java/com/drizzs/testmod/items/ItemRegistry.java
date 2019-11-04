@@ -7,29 +7,17 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.ObjectHolder;
 
-@Mod.EventBusSubscriber(modid = TestMod.MOD_ID, bus=Mod.EventBusSubscriber.Bus.MOD)
-public class ItemRegistry
-{
+@Mod.EventBusSubscriber(modid = TestMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
+public class ItemRegistry {
 
+    @ObjectHolder("testmod:test_icon")
     public static Item test_icon;
 
-
     @SubscribeEvent
-    public static void registerItems(final RegistryEvent.Register<Item> event)
-    {
-
-        test_icon = registerItem(new Item(new Item.Properties().group(ItemGroup.MISC)),"test_item");
-
+    public static void registerItems(final RegistryEvent.Register<Item> event) {
+        event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.MISC)).setRegistryName("test_icon"));
     }
-
-    public static Item registerItem(Item item, String name)
-    {
-        item.setRegistryName(name);
-        ForgeRegistries.ITEMS.register(item);
-        return item;
-    }
-
-
 
 }

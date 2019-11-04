@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "testmod:blocks/customrainblocktop",
+    "side": "testmod:blocks/customrainblockside"
+  }
+}

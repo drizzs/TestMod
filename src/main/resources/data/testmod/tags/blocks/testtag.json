@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "testmod:test_feature"
+    "testmod:test_feature",
+    "minecraft:lava"
   ]
 }
