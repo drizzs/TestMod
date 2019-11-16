@@ -15,6 +15,8 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import static com.drizzs.testmod.items.ItemRegistry.applyFeatures;
+
 
 @Mod("testmod")
 public class TestMod
@@ -43,7 +45,7 @@ public class TestMod
 
     private void setup(final FMLCommonSetupEvent event)
     {
-
+        applyFeatures();
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
