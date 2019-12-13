@@ -1,7 +1,7 @@
 package com.drizzs.testmod;
 
-import com.drizzs.testmod.items.Blocks;
-import com.drizzs.testmod.items.Items;
+import com.drizzs.testmod.content.Blocks;
+import com.drizzs.testmod.content.Items;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;

@@ -3,7 +3,7 @@ package com.drizzs.testmod;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 
-import static com.drizzs.testmod.items.Items.TESTITEM;
+import static com.drizzs.testmod.content.Items.TESTITEM;
 
 public class TestGroup extends ItemGroup {
 

@@ -1,4 +1,4 @@
-package com.drizzs.testmod.items;
+package com.drizzs.testmod.content;
 
 import com.google.common.collect.Maps;
 import net.minecraft.block.Block;
