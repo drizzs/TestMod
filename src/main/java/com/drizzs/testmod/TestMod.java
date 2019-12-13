@@ -2,6 +2,8 @@ package com.drizzs.testmod;
 
 import com.drizzs.testmod.content.Blocks;
 import com.drizzs.testmod.content.Items;
+import com.drizzs.testmod.world.TestWorldType;
+import net.minecraft.world.WorldType;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -19,7 +21,7 @@ public class TestMod
     public static TestMod instance;
 
     public static final String MOD_ID = "testmod";
-
+    public static WorldType TESTWORLDTYPE = new TestWorldType();
     private static final Logger LOGGER = LogManager.getLogger(MOD_ID);
 
     public TestMod() {
