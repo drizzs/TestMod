@@ -1,0 +1,79 @@
+package spectralmc.elepets.util;
+
+public class WeaknessHandler {
+/*
+    static {
+        //Weakness/Resistance Handler
+        //Normal
+        NORMAL.get().addWeakness(SPIRIT.get());
+        NORMAL.get().addResistance(DARK.get());
+        //Fire
+        FIRE.get().addResistance(FIRE.get());
+        FIRE.get().addResistance(EARTH.get());
+        FIRE.get().addWeakness(ICE.get());
+        FIRE.get().addSuperWeakness(WATER.get());
+        //Water
+        WATER.get().addResistance(FIRE.get());
+        WATER.get().addResistance(WATER.get());
+        WATER.get().addResistance(MECHA.get());
+        WATER.get().addResistance(FAE.get());
+        WATER.get().addSuperWeakness(THUNDER.get());
+        WATER.get().addSuperWeakness(EARTH.get());
+        WATER.get().addWeakness(ICE.get());
+        //Earth
+        EARTH.get().addResistance(WATER.get());
+        EARTH.get().addResistance(THUNDER.get());
+        EARTH.get().addResistance(SPIRIT.get());
+        EARTH.get().addResistance(LIGHT.get());
+        EARTH.get().addResistance(DARK.get());
+        EARTH.get().addSuperWeakness(MECHA.get());
+        EARTH.get().addSuperWeakness(ICE.get());
+        EARTH.get().addSuperWeakness(FIRE.get());
+        //Thunder
+        THUNDER.get().addSuperWeakness(EARTH.get());
+        THUNDER.get().addResistance(THUNDER.get());
+        THUNDER.get().addResistance(MECHA.get());
+        //Ice
+        ICE.get().addResistance(EARTH.get());
+        ICE.get().addResistance(FAE.get());
+        ICE.get().addSuperWeakness(MECHA.get());
+        ICE.get().addWeakness(THUNDER.get());
+        ICE.get().addWeakness(FIRE.get());
+        //Mecha
+        MECHA.get().addSuperWeakness(FIRE.get());
+        MECHA.get().addSuperWeakness(THUNDER.get());
+        MECHA.get().addSuperWeakness(WATER.get());
+        MECHA.get().addResistance(EARTH.get());
+        MECHA.get().addResistance(FAE.get());
+        MECHA.get().addResistance(ICE.get());
+        MECHA.get().addResistance(MECHA.get());
+        MECHA.get().addResistance(LIGHT.get());
+        //Fae
+        FAE.get().addResistance(DARK.get());
+        FAE.get().addWeakness(EARTH.get());
+        FAE.get().addWeakness(SPIRIT.get());
+        FAE.get().addSuperWeakness(FAE.get());
+        //Spirit
+        SPIRIT.get().addResistance(NORMAL.get());
+        SPIRIT.get().addResistance(EARTH.get());
+        SPIRIT.get().addSuperWeakness(SPIRIT.get());
+        SPIRIT.get().addSuperWeakness(DARK.get());
+        SPIRIT.get().addWeakness(FAE.get());
+        //Light
+        LIGHT.get().addWeakness(EARTH.get());
+        LIGHT.get().addSuperWeakness(DARK.get());
+        LIGHT.get().addResistance(SPIRIT.get());
+        LIGHT.get().addResistance(LIGHT.get());
+        LIGHT.get().addResistance(THUNDER.get());
+        LIGHT.get().addResistance(FAE.get());
+        //Dark
+        DARK.get().addResistance(ICE.get());
+        DARK.get().addResistance(THUNDER.get());
+        DARK.get().addResistance(SPIRIT.get());
+        DARK.get().addResistance(DARK.get());
+        DARK.get().addSuperWeakness(FAE.get());
+        DARK.get().addSuperWeakness(LIGHT.get());
+
+    }
+*/
+}

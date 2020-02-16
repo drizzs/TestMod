@@ -1,0 +1,6 @@
+{
+  "type": "maturity",
+  "name": "adult",
+  "growthOrder": 2,
+  "ageToMature": 0
+}

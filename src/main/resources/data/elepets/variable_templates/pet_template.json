@@ -1,0 +1,14 @@
+{
+  "type": "pet",
+  "name": "",
+  "petType": "",
+  "petDiet": "",
+  "baseAttack": 8,
+  "baseDefense": 8,
+  "baseSpeed": 8,
+  "baseHealth": 8,
+  "baseMeleeResist": 8,
+  "baseRangedResist": 8,
+  "rarity": 1,
+  "canBreed": true
+}

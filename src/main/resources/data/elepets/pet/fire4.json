@@ -1,0 +1,14 @@
+{
+  "type": "pet",
+  "name": "fire4",
+  "petType": "fire",
+  "petDiet": "carnivore",
+  "baseAttack": 8,
+  "baseDefense": 8,
+  "baseSpeed": 8,
+  "baseHealth": 8,
+  "baseMeleeResist": 8,
+  "baseRangedResist": 8,
+  "rarity": 4,
+  "canBreed": true
+}

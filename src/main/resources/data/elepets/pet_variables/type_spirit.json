@@ -1,0 +1,13 @@
+{
+  "type": "elepets:type",
+  "name": "spirit",
+  "attackModifier": 0,
+  "defenseModifier": 0,
+  "speedModifier": 0,
+  "healthModifier": 0,
+  "meleeResistance": 0,
+  "rangedResistance": 0,
+  "typeColor": "0x9900ff",
+  "canBeNeutral": false,
+  "percentBabyIsMale": 50
+}

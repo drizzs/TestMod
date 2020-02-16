@@ -1,0 +1,14 @@
+{
+  "type": "pet",
+  "name": "thunder4",
+  "petType": "thunder",
+  "petDiet": "carnivore",
+  "baseAttack": 8,
+  "baseDefense": 8,
+  "baseSpeed": 8,
+  "baseHealth": 8,
+  "baseMeleeResist": 8,
+  "baseRangedResist": 8,
+  "rarity": 4,
+  "canBreed": true
+}

@@ -1,0 +1,13 @@
+{
+  "type": "elepets:type",
+  "name": "light",
+  "attackModifier": 0,
+  "defenseModifier": 0,
+  "speedModifier": 0,
+  "healthModifier": 0,
+  "meleeResistance": 0,
+  "rangedResistance": 0,
+  "typeColor": "0xffff00",
+  "canBeNeutral": false,
+  "percentBabyIsMale": 50
+}

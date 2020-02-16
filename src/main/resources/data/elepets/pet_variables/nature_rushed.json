@@ -1,0 +1,10 @@
+{
+  "type": "elepets:nature",
+  "name": "rushed",
+  "attackModifier": 0,
+  "defenseModifier": 0,
+  "speedModifier": 0,
+  "healthModifier": 0,
+  "meleeResistanceModifier": 0,
+  "rangedResistanceModifier": 0
+}

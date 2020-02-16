@@ -1,0 +1,14 @@
+{
+  "type": "pet",
+  "name": "water5",
+  "petType": "water",
+  "petDiet": "pescetarian",
+  "baseAttack": 8,
+  "baseDefense": 8,
+  "baseSpeed": 8,
+  "baseHealth": 8,
+  "baseMeleeResist": 8,
+  "baseRangedResist": 8,
+  "rarity": 5,
+  "canBreed": true
+}

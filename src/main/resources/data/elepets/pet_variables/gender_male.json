@@ -1,0 +1,6 @@
+{
+  "type": "elepets:gender",
+  "name": "male",
+  "canBreed": true,
+  "canBreedUniSex": false
+}

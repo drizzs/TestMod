@@ -1,0 +1,14 @@
+{
+  "type": "pet",
+  "name": "earth2",
+  "petType": "earth",
+  "petDiet": "herbivore",
+  "baseAttack": 8,
+  "baseDefense": 8,
+  "baseSpeed": 8,
+  "baseHealth": 8,
+  "baseMeleeResist": 8,
+  "baseRangedResist": 8,
+  "rarity": 2,
+  "canBreed": true
+}
